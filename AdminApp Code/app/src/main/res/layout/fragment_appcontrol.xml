@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.Fragments.AppControlFragment">
+
+    <!--  App Control  -->
+    <LinearLayout
+        android:id="@+id/appControlSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:visibility="visible">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="New Update Version">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etNewUpdatedVersion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:inputType="number"
+                android:text="2.0" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="New Update Link">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etNewUpdatedLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:inputType="number"
+                android:text="https://play.google.com/store/apps/details?id=com.darwinbark.instantpower" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="In App Telegram Link">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etInAppTelegramLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:inputType="number"
+                android:text="https://t.me/instantpowerofficial" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="In App Youtube Link">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etInAppYoutubeLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://www.youtube.com/channel/UC2e2buvh925MVaZLTeGj6tA?sub_confirmation=1" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="In App Facebook Page">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etInAppFacebookPage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://www.instagram.com/instantpower_2021/" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/plusjakarta_text_regular"
+            android:text="Note: If any payment mode empty means inactive and not display in app side"
+            android:textColor="#2e2e2e" />
+
+        <Button
+            android:id="@+id/btnSaveAppControl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Save" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

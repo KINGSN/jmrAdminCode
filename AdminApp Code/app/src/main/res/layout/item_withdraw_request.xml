@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="#F3F3F3"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="0dp">
+
+
+    <com.wajahatkarim3.easyflipview.EasyFlipView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:flipOnTouch="false"
+        app:flipEnabled="true"
+        app:flipDuration="400"
+        android:id="@+id/flipView"
+        app:flipType="vertical"
+        app:flipFrom="front"
+        app:autoFlipBack="false"
+        app:autoFlipBackTime="1500"
+        >
+
+        <!-- Back Layout Goes Here -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_8sdp"
+            android:background="#F8EDEC"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    app:cardCornerRadius="10dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/idImage"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/soccer"
+                        app:srcCompat="@drawable/ic_coin"
+                        />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvTopTitle3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/plusjakarta_text_regular"
+                        android:maxLines="1"
+                        android:text="Special Tech"
+                        android:textColor="#2e2e2e"
+                        android:textSize="@dimen/fab_title"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvDepoWebsite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/plusjakarta_text_regular"
+                        android:maxLines="2"
+                        android:text="bitcoin.com"
+                        android:textColor="#2e2e2e"
+                        android:textSize="15sp"
+                        android:textStyle="normal" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/plusjakarta_text_regular"
+                    android:maxLines="1"
+                    android:text="Withdraw Method : "
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+
+                <TextView
+                    android:id="@+id/tvDepoMethod"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/plusjakarta_text_regular"
+                    android:maxLines="2"
+                    android:text="wallet"
+                    android:textColor="#2e2e2e"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <ImageView
+                    android:id="@+id/viewImg"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="4dp"
+                    android:background="@drawable/ic_img"
+                    android:tint="@color/successColor"
+                    android:tooltipText="View Image" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/depolinear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvDepoDetails"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/plusjakarta_text_regular"
+                    android:maxLines="1"
+                    android:text="Withdraw Details : "
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/tvDepoDetail"
+                    android:layout_width="@dimen/_125sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/plusjakarta_text_regular"
+                    android:maxLines="10"
+                    android:text="something"
+                    android:textColor="@color/warningColor"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <ImageView
+                    android:id="@+id/ivCopyId"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@drawable/ic_copy_2"
+                    android:contentDescription="TODO" />
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/plusjakarta_text_regular"
+                    android:maxLines="1"
+                    android:text="Username  : "
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/tvDepoUsername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/plusjakarta_text_regular"
+                    android:maxLines="2"
+                    android:text="shubhcode"
+                    android:textColor="#2e2e2e"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/plusjakarta_text_regular"
+                    android:maxLines="1"
+                    android:text="Withdraw Amount : "
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/tvDepoAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/plusjakarta_text_regular"
+                    android:maxLines="2"
+                    android:text="999"
+                    android:textColor="#2e2e2e"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/plusjakarta_text_regular"
+                    android:maxLines="1"
+                    android:text="Withdraw Order Id : "
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/tvDepoOrderId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/plusjakarta_text_regular"
+                    android:maxLines="2"
+                    android:text="899Id9849384"
+                    android:textColor="#2e2e2e"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <ImageView
+                    android:id="@+id/ivCopyorderId"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@drawable/ic_copy_2"
+                    android:contentDescription="TODO" />
+
+            </LinearLayout>
+
+            <!--  <LinearLayout
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_vertical"
+                  android:layout_marginBottom="10dp"
+                  android:layout_marginStart="10dp"
+                  android:layout_marginTop="5dp"
+                  android:orientation="horizontal">
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:fontFamily="@font/plusjakarta_text_regular"
+                      android:maxLines="1"
+                      android:text="Id Total Balance : "
+                      android:textColor="#000000"
+                      android:textSize="15sp"
+                      android:textStyle="normal" />
+
+                  <TextView
+                      android:id="@+id/tvDepoIdBal"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center_vertical"
+                      android:fontFamily="@font/plusjakarta_text_regular"
+                      android:maxLines="2"
+                      android:text="wallet"
+                      android:textColor="#2e2e2e"
+                      android:textSize="15sp"
+                      android:textStyle="normal" />
+
+              </LinearLayout>-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bakViewDetails"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/plusjakarta_text_regular"
+                android:text="View Details"
+                android:focusable="true" />
+
+        </LinearLayout>
+
+
+        <!-- Front Layout Goes Here -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:padding="@dimen/_2sdp"
+            app:cardElevation="0dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/idImage1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_passbook" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F3F3F3"
+        android:orientation="vertical"
+        android:padding="14dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvTopTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/plusjakarta_text_regular"
+                android:maxLines="1"
+                android:text="John Doe"
+                android:textColor="#2e2e2e"
+                android:textSize="@dimen/fab_title"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                app:cardCornerRadius="5dp">
+
+                <TextView
+                    android:id="@+id/tvUserStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#CFEFDA"
+                    android:fontFamily="@font/plusjakarta_text_regular"
+                    android:maxLines="1"
+                    android:padding="4dp"
+                    android:text="VERIFIED"
+                    android:textColor="#2e2e2e"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+
+        </RelativeLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/plusjakarta_text_regular"
+                android:maxLines="1"
+                android:text="Registered No : "
+                android:textColor="#2e2e2e"
+                android:textSize="12sp"
+                android:textStyle="normal" />
+
+
+            <TextView
+                android:id="@+id/tvTopUserPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/plusjakarta_text_regular"
+                android:maxLines="2"
+                android:text="9988998899"
+                android:textColor="#2e2e2e"
+                android:textSize="12sp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/plusjakarta_text_regular"
+                    android:maxLines="1"
+                    android:text="Withdraw Type : "
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+
+                <TextView
+                    android:id="@+id/tvDepoMethod1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/plusjakarta_text_regular"
+                    android:maxLines="2"
+                    android:text="wallet"
+                    android:textColor="#2e2e2e"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/plusjakarta_text_regular"
+                android:maxLines="1"
+                android:text="User Wallet Bal : "
+                android:textColor="#2e2e2e"
+                android:textSize="12sp"
+                android:textStyle="normal" />
+
+
+            <TextView
+                android:id="@+id/tvUserWallet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/plusjakarta_text_regular"
+                android:maxLines="2"
+                android:text="02-12-2000 | Midnight"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp"
+                android:textStyle="normal" />
+
+
+
+
+        </LinearLayout>
+
+         <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/plusjakarta_text_regular"
+                    android:maxLines="1"
+                    android:text="Withdraw Amount : "
+                    android:textColor="#2e2e2e"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+
+                <TextView
+                    android:id="@+id/tvUserWid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/plusjakarta_text_regular"
+                    android:maxLines="2"
+                    android:text="02-12-2000 | Midnight"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+
+
+
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/lltvReqDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/plusjakarta_text_regular"
+                android:maxLines="1"
+                android:text="Request Date : "
+                android:textColor="#2e2e2e"
+                android:textSize="12sp"
+                android:textStyle="normal" />
+
+
+            <TextView
+                android:id="@+id/tvReqDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/plusjakarta_text_regular"
+                android:maxLines="2"
+                android:text="02-12-2000 | Midnight"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp"
+                android:textStyle="normal" />
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lltvUpdateDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/plusjakarta_text_regular"
+                android:maxLines="1"
+                android:text="Update Date : "
+                android:textColor="#2e2e2e"
+                android:textSize="12sp"
+                android:textStyle="normal" />
+
+
+            <TextView
+                android:id="@+id/tvUpdateDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/plusjakarta_text_regular"
+                android:maxLines="2"
+                android:text="02-12-2000 | Midnight"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp"
+                android:textStyle="normal" />
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/enableBtn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_paid"
+                app:tint="#0A8313" />
+
+            <ImageView
+                android:id="@+id/disableBtn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/ic_cancelled"
+                app:tint="#B71C1C" />
+
+            <ImageView
+                android:id="@+id/historyBtn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/ic_history" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvViewDetails"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/plusjakarta_text_regular"
+            android:text="View Details"
+            android:focusable="true" />
+
+
+    </LinearLayout>
+
+        </LinearLayout>
+
+    </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+
+</androidx.cardview.widget.CardView>

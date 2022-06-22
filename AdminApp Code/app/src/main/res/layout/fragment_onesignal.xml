@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.Fragments.AppOnesigScreenFragment">
+
+    <LinearLayout
+        android:id="@+id/oneSignalDataSection"
+        android:padding="10dp"
+        android:visibility="visible"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="OneSignal App ID">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etOneSignalAppId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="33e054eb-472d-4116-a712-c03c1a39a011" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Firebase keys">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etFirebaseKey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AAAAVz-Mor4:APA91bHUbXMcLx2hAgzEOECM-7F0q_wdDhmtngs2lmRqaLtSxYczYPHiICSNKITp_yKDKPdPQCqjY" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="OneSignal App Key">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etOneSignalAppKey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Y2UwMjBmZjEtYz00ZmE0LTg1NGYtNDcyNzQ0ZGVkYzFj" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnSaveNotification"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            android:text="Save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

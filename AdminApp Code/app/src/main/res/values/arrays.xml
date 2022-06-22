@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="account_type_array">
+        <item>Saving</item>
+        <item>Current</item>
+
+    </string-array>
+
+    <string-array name="paymentMode">
+        <item>Paytm Gateway</item>
+        <item>Payumoney Gateway</item>
+        <item>Offline Gateway</item>
+
+    </string-array>
+
+    <string-array name="edit_create_status_array">
+        <item>Active</item>
+        <item>Deactive</item>
+
+    </string-array>
+
+    <string-array name="edit_admin_status_array">
+        <item>Enabled</item>
+        <item>Disabled</item>
+    </string-array>
+
+    <string-array name="filter_category">
+    <item>All Deposit</item>
+    <item>All Create ID</item>
+    <item>All ID Deposit</item>
+    <item>All Wallet Deposit</item>
+    <item>All Change Password</item>
+    <item>All Withdrawals </item>
+    </string-array>
+
+    <string-array name="filter_sortby">
+        <item>PENDING</item>
+        <item>PROCESSING</item>
+        <item>APPROVED</item>
+        <item>REJECTED</item>
+    </string-array>
+
+    <string-array name="edit_admin_User_Details_Access">
+        <item>No Access</item>
+        <item>View Only</item>
+        <item>Manage Control</item>
+    </string-array>
+
+    <string-array name="report_array">
+        <item>TODAY</item>
+        <item>YESTERDAY</item>
+        <item>THIS WEEK</item>
+        <item>THIS MONTH</item>
+        <item>TILL NOW</item>
+       <!-- <item>CUSTOM</item>-->
+
+    </string-array>
+
+</resources>

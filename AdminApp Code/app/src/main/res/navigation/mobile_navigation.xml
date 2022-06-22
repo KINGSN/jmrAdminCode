@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_settings">
+
+    <!--  <fragment
+          android:id="@+id/navigation_home"
+          android:name="com.gpuntd.adminapp.ui.home.HomeFragment"
+          android:label="Home"
+          tools:layout="@layout/fragment_home" />
+
+      <fragment
+          android:id="@+id/navigation_users"
+          android:name="com.gpuntd.adminapp.ui.users.UsersFragment"
+          android:label="Users"
+          tools:layout="@layout/fragment_users" />
+
+      <fragment
+          android:id="@+id/navigation_deposits"
+          android:name="com.gpuntd.adminapp.ui.deposits.DepositsFragment"
+          android:label="Deposits"
+          tools:layout="@layout/fragment_deposits" />
+  -->
+    <fragment
+    android:id="@+id/navigation_settings"
+    android:name="com.gpuntd.adminapp.ui.settings.SettingsFragment"
+    android:label="Settings"
+    tools:layout="@layout/fragment_settings"
+    />
+
+    <!--<fragment
+        android:id="@+id/navigation_chat"
+        android:name="com.gpuntd.adminapp.ui.Fragments.UsersChatFragment"
+        android:label="Chat"
+        tools:layout="@layout/fragment_chatlist"
+        />-->
+
+</navigation>

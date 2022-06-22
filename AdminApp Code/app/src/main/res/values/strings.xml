@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Admin Dashboard</string>
+
+
+    <!--Bottom Navigation    -->
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <!--Navigation Drawer-->
+    <string name="drawer_notifications">Notifications</string>
+    <string name="drawer_logout">Logout</string>
+    <string name="terms">Use of this site is provided by Demos subject to the following Terms and Conditions:
+1. Your use constitutes acceptance of these Terms and Conditions as at the date of your first use of the site.
+2. Demos reserves the rights to change these Terms and Conditions at any time by posting changes online. Your continued use of this site after changes are posted constitutes your acceptance of this agreement as modified.
+3. You agree to use this site only for lawful purposes, and in a manner which does not infringe the rights, or restrict, or inhibit the use and enjoyment of the site by any third party.
+4. This site and the information, names, images, pictures, logos regarding or relating to Demos are provided “as is” without any representation or endorsement made and without warranty of any kind whether express or implied. In no event will Demos be liable for any damages including, without limitation, indirect or consequential damages, or any damages whatsoever arising from the use or in connection with such use or loss of use of the site, whether in contract or in negligence.
+5. Demos does not warrant that the functions contained in the material contained in this site will be uninterrupted or error free, that defects will be corrected, or that this site or the server that makes it available are free of viruses or bugs or represents the full functionality, accuracy and reliability of the materials.
+6. Copyright restrictions: please refer to our Creative Commons license terms governing the use of material on this site.
+7. Demos takes no responsibility for the content of external Internet Sites.
+8. Any communication or material that you transmit to, or post on, any public area of the site including any data, questions, comments, suggestions, or the like, is, and will be treated as, non-confidential and non-proprietary information.
+9. If there is any conflict between these Terms and Conditions and rules and/or specific terms of use appearing on this site relating to specific material then the latter shall prevail.</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="navigation_drawer_open">Drawer Open</string>
+    <string name="navigation_drawer_close">Drawer Closed</string>
+
+    <string name="privacy_policy_url">https://darwinbark.com/pgr.php</string>
+    <string name="ok_message">ok</string>
+    <string name="app_settings">App Settings</string>
+    <string name="app_control">App Control</string>
+    <string name="app_payment_mode">Control Payment Mode</string>
+    <string name="app_offline_screenshot">App Offline Screenshot</string>
+    <string name="create_id_mode">Create ID Mode</string>
+    <string name="app_banner">App Banner</string>
+    <string name="create_app_offer">Create App Offer</string>
+    <string name="one_signal_data">One Signal Data</string>
+    <string name="take_image">Take Image From</string>
+    <string name="select_picture">Select Picture</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="fit_image">FIT IMAGE</string>
+    <string name="square">SQUARE</string>
+    <string name="free">FREE</string>
+    <string name="circle">CIRCLE</string>
+    <string name="circle_square">CIRCLE_SQUARE</string>
+
+    <string name="button_allow">Allow</string>
+    <string name="button_deny">Deny</string>
+    <string name="slide1">https://picsum.photos/200/300</string>
+    <string name="processingIdData">Processing</string>
+    <string name="approvalWait">Pending</string>
+    <string name="write_your_message">Message</string>
+    <string name="no_chat_history_found">No Chat Found</string>
+    <string name="_22_sept_2021_03_315">22_sept_2021_03_315</string>
+    <string name="hello_i_m_new">Hello I m New</string>
+    <string name="close">Close</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="select_img">Pick an Image</string>
+    <string name="internet_concation">Internet Connection Weak</string>
+    <string name="chats">Chats</string>
+    <string name="val_comment">Please enter comment</string>
+    <string name="val_email">Please enter email id.</string>
+    <string name="val_phone">Please enter mobile number.</string>
+    <string name="val_pass">Password must contain at least six characters.</string>
+    <string name="val_pass1">Please renter at least six characters password.</string>
+    <string name="val_pass3">Password does not match.</string>
+    <string name="permission_pick_rationale">READ_EXTERNAL_STORAGE permission is needed to pick image.</string>
+    <string name="permission_crop_rationale">WRITE_EXTERNAL_STORAGE permission is needed to save cropped image.</string>
+    <string name="update">UPDATE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="insert">INSERT </string>
+    <string name="allDeposit">All Deposit</string>
+    <string name="allCreateID">All Create ID</string>
+    <string name="allWithdrawals">All Withdrawals</string>
+
+
+    <string name="slycalendar_singledate" translatable="false">EE, dd MMMM</string>
+    <string name="slycalendar_short" translatable="false">EE, dd</string>
+    <string name="slycalendar_short_month" translatable="false">EE, dd MMM</string>
+    <string name="slycalendar_dates_period" translatable="false">%1$s – %2$s</string>
+
+    <string name="slycalendar_cancel">Cancel</string>
+    <string name="slycalendar_save">Save</string>
+    <string name="slycalendar_next">Next</string>
+    <string name="slycalendar_prev">Prev</string>
+    <string name="dateFormat" translatable="false">EE, dd MM</string>
+    <string name="timeFormat" translatable="false">EE, dd MM HH:mm</string>
+    <string name="timeFormat2" translatable="false">dd-MM-yyyy</string>
+    <string name="timeFormat1" translatable="false">dd-MM-yyyy | hh:mm a</string>
+    <string name="period" translatable="false">%1$s – %2$s</string>
+
+
+</resources>

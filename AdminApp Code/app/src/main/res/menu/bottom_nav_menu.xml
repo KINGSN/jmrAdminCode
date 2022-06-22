@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_1"
+        android:visible="false"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/navigation_users"
+        android:visible="false"
+        android:icon="@drawable/ic_user2"
+        android:title="Users" />
+
+    <item
+        android:id="@+id/navigation_deposits"
+        android:visible="false"
+        android:icon="@drawable/ic_passbook"
+        android:title="Deposits" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_setting"
+        android:title="Settings"
+        />
+
+    <!--<item
+        android:id="@+id/navigation_chat"
+        android:icon="@drawable/ic_setting"
+        android:title="Chat"
+        />-->
+
+</menu>

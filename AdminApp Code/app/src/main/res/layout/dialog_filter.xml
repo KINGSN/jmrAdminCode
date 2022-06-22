@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:orientation="vertical">
+
+
+
+        <androidx.cardview.widget.CardView
+            android:background="@color/productback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="5dp"
+            android:layout_centerInParent="true"
+            app:cardCornerRadius="@dimen/_10sdp"
+            android:orientation="vertical">
+
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+             <View
+                 android:layout_width="match_parent"
+                 android:layout_height="5dp"
+                 android:background="@color/colorPrimary" />
+
+             <ImageView
+                 android:id="@+id/tvCancel"
+                 android:layout_width="40dp"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="end"
+                 android:layout_marginEnd="10dp"
+                 android:background="@drawable/round_red_hangup"
+                 android:padding="8dp"
+                 android:src="@drawable/ic_cancelled" />
+
+             <!-- <RelativeLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+                  &lt;!&ndash;<TextView
+                      android:id="@+id/ctvbTitle"
+                      android:layout_width="match_parent"
+                      android:layout_height="40dp"
+                      android:layout_gravity="center"
+                      android:gravity="center"
+                      android:text="Filter List"
+                      android:textColor="@color/black_off"
+                      android:textSize="@dimen/_14sdp" />&ndash;&gt;
+
+              </RelativeLayout>
+
+              <View
+                  android:layout_width="match_parent"
+                  android:layout_height="1dp"
+                  android:layout_marginTop="5dp"
+                  android:background="@color/themeRed" />-->
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="20dp"
+                 android:padding="@dimen/_5sdp"
+                 android:orientation="vertical">
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="@dimen/_10sdp"
+                     android:text="Filter Category"
+                     android:textStyle="bold"
+                     android:textColor="@color/colorPrimary"
+                     android:textSize="@dimen/_14sdp" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Click here to filter By Category"
+                     android:textColor="@color/black"
+                     android:textSize="@dimen/_12sdp" />
+
+                 <androidx.appcompat.widget.AppCompatSpinner
+                     android:id="@+id/etCategoryD"
+                     android:layout_width="match_parent"
+                     android:layout_height="@dimen/_40sdp"
+                     android:layout_marginTop="@dimen/_5sdp"
+                     android:background="@drawable/edittext_border"
+                     android:drawableEnd="@drawable/ic_arrow_down"
+                     android:editable="false"
+                     android:focusable="false"
+                     android:hint="Select Category List"
+                     android:entries="@array/filter_category"
+                     android:padding="@dimen/_7sdp"
+                     android:singleLine="true"
+                     android:text=""
+                     android:textSize="@dimen/_13sdp" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="@dimen/_10sdp"
+                     android:text="Sort By"
+                     android:textStyle="bold"
+                     android:textColor="@color/colorPrimary"
+                     android:textSize="@dimen/_14sdp" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Click here to Sort List"
+                     android:textColor="@color/black"
+                     android:textSize="@dimen/_12sdp" />
+
+                 <androidx.appcompat.widget.AppCompatSpinner
+                     android:id="@+id/etsort"
+                     android:layout_width="match_parent"
+                     android:layout_height="@dimen/_40sdp"
+                     android:layout_marginTop="@dimen/_5sdp"
+                     android:entries="@array/filter_sortby"
+                     android:background="@drawable/edittext_border"
+                     android:drawableEnd="@drawable/ic_arrow_down"
+                     android:editable="false"
+                     android:focusable="false"
+                     android:hint="Select Sort Type"
+                     android:padding="@dimen/_7sdp"
+                     android:singleLine="true"
+                     android:text=""
+                     android:textSize="@dimen/_13sdp" />
+
+                 <View
+                     android:layout_width="match_parent"
+                     android:layout_height="1dp"
+                     android:layout_marginTop="35dp"
+                     android:background="@color/colorPrimary" />
+
+
+             </LinearLayout>
+
+
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:gravity="center"
+                 android:orientation="horizontal">
+
+                 <Button
+                     android:id="@+id/btnSubmit"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center_horizontal"
+                     android:layout_marginStart="30dp"
+                     android:layout_marginEnd="30dp"
+                     android:text="Submit"
+                     android:textAllCaps="false"
+                     android:textColor="@color/black" />
+
+                 <View
+                     android:layout_width="1dp"
+                     android:layout_height="match_parent"
+                     android:background="@color/colorPrimary" />
+
+
+
+             </LinearLayout>
+
+    </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+</layout>

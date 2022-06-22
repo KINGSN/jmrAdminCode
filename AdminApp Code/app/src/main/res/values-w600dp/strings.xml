@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ok_message">ok</string>
+    <string name="app_settings">App Settings</string>
+    <string name="app_control">App Control</string>
+    <string name="app_offline_screenshot">App Offline Screenshot</string>
+    <string name="create_id_mode">Create ID Mode</string>
+    <string name="app_banner">App Banner</string>
+    <string name="create_app_offer">Create App Offer</string>
+    <string name="one_signal_data">One Signal Data</string>
+    <string name="update">UPDATE</string>
+    <string name="insert">Insert</string>
+    <string name="allDeposit">All Deposit</string>
+    <string name="dateFormat">dateFormat</string>
+    <string name="timeFormat">timeFormat</string>
+    <string name="period">Period</string>
+</resources>

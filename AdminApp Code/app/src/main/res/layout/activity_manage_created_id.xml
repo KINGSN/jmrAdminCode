@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ManageCreatedIdActivity">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbarManId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbarManId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                app:navigationIcon="@drawable/ic_arrow_left"
+                app:title="Manage Created Id" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvManageCreatedId"
+            android:layout_width="match_parent"
+            tools:itemCount="8"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            tools:listitem="@layout/adapter_manage_created_id" />
+
+    </LinearLayout>
+
+
+</layout>

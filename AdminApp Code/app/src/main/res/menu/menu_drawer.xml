@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/drawer_home"
+        android:icon="@drawable/ic_home_1"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/drawer_user_lists"
+        android:icon="@drawable/ic_user2"
+        android:title="User Lists" />
+
+    <group
+        android:id="@+id/gp1"
+        android:enabled="true"
+        android:menuCategory="container">
+    <item
+        android:id="@+id/drawer_manage_deposits"
+        android:icon="@drawable/ic_passbook"
+        android:title="Manage Deposits" />
+    <item
+        android:id="@+id/drawer_manage_created_id"
+        android:icon="@drawable/ic_id"
+        android:title="Manage Created ID" />
+    <item
+        android:id="@+id/drawer_withdraw_request"
+        android:icon="@drawable/ic_withdraw"
+        android:title="Withdraw Request" />
+    <item
+        android:id="@+id/drawer_pass_request"
+        android:icon="@drawable/ic_password"
+        android:title="Password Request" />
+    <item
+        android:id="@+id/drawer_close_id_req"
+        android:icon="@drawable/ic_closeid"
+        android:title="Close ID Request" />
+
+
+
+
+</group>
+
+    <group
+        android:id="@+id/gp"
+        android:enabled="true"
+        android:menuCategory="container">
+        <item
+            android:id="@+id/drawer_reports"
+            android:icon="@drawable/ic_notification"
+            android:title="Reports" />
+
+        <item
+            android:id="@+id/drawer_notification"
+            android:icon="@drawable/ic_notification"
+            android:title="Notifications" />
+
+        <item android:id="@+id/drawer_app_banner"
+            android:icon="@drawable/ic_tick_square"
+            android:title="App Banner"
+            />
+
+        <item android:id="@+id/drawer_create_id_mode"
+            android:icon="@drawable/ic_tick_square"
+            android:title="Create Id Mode"
+            />
+
+        <item android:id="@+id/drawer_create_app_offer"
+            android:icon="@drawable/ic_tick_square"
+            android:title="Create App Offer"
+            />
+
+
+
+      <!--  <item
+            android:id="@+id/drawer_notification"
+            android:icon="@drawable/ic_notification"
+            android:title="@string/drawer_notifications" />-->
+      <!--  <item
+            android:id="@+id/drawer_app_settings"
+            android:icon="@drawable/ic_setting"
+            android:title="App Settings" />-->
+
+        <item
+            android:id="@+id/drawer_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/drawer_logout" />
+    </group>
+</menu>

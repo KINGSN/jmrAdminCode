@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.Fragments.AppPaymentDetailsFragment">
+
+    <!--  App Offline Screenshot  -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/appScreenshotSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#98DBEF"
+                android:fontFamily="@font/plusjakarta_text_regular"
+                android:padding="10dp"
+                android:text="Paytm Upi"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="In App Paytm UPI Display Name">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etInAppPaytmUpiName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TARUN " />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="In App Paytm UPI Display Mobile No">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etInAppPaytmUpiMobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9123139077" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="In App Paytm UPI Display Upi ID">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etInAppPaytmUpiId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9123139077@paytm" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#D5163A" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#98DBEF"
+                android:fontFamily="@font/plusjakarta_text_regular"
+                android:padding="10dp"
+                android:text="Paytm Setting"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="In App Paytm Display Name">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etInAppPaytmSettingName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TARUN " />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="In App Paytm Display Mobile No">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etInAppPaytmSettingMobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9123139077" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="In App Paytm Display Upi ID">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etInAppPaytmSettingId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9123139077@paytm" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#D5163A" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFD350"
+                android:fontFamily="@font/plusjakarta_text_regular"
+                android:padding="10dp"
+                android:text="Google Pay Setting"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="In App GooglePay Display Name">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etInAppGooglePayName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TARUN " />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="In App GooglePay Display Mobile No">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etInAppGooglePayMobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9123139077" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="In App GooglePay Display Upi ID">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etInAppGooglePayId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9123139077@paytm" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#D5163A" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFD350"
+                android:fontFamily="@font/plusjakarta_text_regular"
+                android:padding="10dp"
+                android:text="Bank Settings"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinnerBankType"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:entries="@array/account_type_array" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="In App Bank Account Holder Name">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etInAppBankHolderName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TARUN KUMAR" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="In App Bank Account IFSC Code">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etInAppBankIFSCCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PUNB0721000" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="In App Bank Account Number">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etInAppBankAccountNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:text="7210000100039209" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/btnSaveOfflineScreenshots"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:text="Save" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
